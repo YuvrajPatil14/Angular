@@ -39,6 +39,7 @@
         $scope.pos='res'
       }
       else{
+        $scope.pos='err'
         $scope.result = "Please Enter data first"
       }
      
