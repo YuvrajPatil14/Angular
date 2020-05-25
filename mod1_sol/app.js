@@ -22,7 +22,7 @@
                 ilength = ilength-1
             }
         });
-        if(ilength <= 0){
+        if(ilength === 0){
             $scope.pos='err'
             $scope.result = "Please Enter data first"
             return 
