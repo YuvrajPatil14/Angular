@@ -1,0 +1,13 @@
+<div >
+    <ul class="menuList">
+        <li ng-repeat="item in menu.items">
+            <ul>
+                <li>Name: {{item.name}}</li>
+                <li>Short Name: {{item.short_name}}</li>
+                <li>description: {{item.description}}</li>
+            </ul>
+            <button  class="btn btn-danger remove" ng-click="menu.onRemove({index:$index});">
+                Don't want this one!</button>
+        </li>
+    </ul>
+</div>
