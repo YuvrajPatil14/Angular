@@ -26,18 +26,8 @@
 
   function FoundItemsDirectiveController() {
     var menu = this;
-  
-    // list.cookiesInList = function () {
-    //   for (var i = 0; i < list.items.length; i++) {
-    //     var name = list.items[i].name;
-    //     if (name.toLowerCase().indexOf("cookie") !== -1) {
-    //       return true;
-    //     }
-    //   }
-      
-  
-    //   return false;
-    // };
+    console.log(menu);
+    
   }
   MenuCategoriesController.$inject = ["MenuFactory"];
   function MenuCategoriesController(MenuFactory) {
